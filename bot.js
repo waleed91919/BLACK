@@ -463,7 +463,7 @@ client.on('message' , message => {
  .setDescription("Add me" + `
  **
 رابط البوت |
- https://discordapp.com/oauth2/authorize?client_id=445217270860349461&permissions=2080374975&scope=bot
+https://discordapp.com/api/oauth2/authorize?client_id=531567154483691540&permissions=8&scope=bot
  **
 `);
   message.author.sendEmbed(embed);
