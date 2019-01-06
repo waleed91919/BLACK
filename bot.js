@@ -9,7 +9,6 @@ client.on('ready', () => {
 
 
    client.on("message", message => {
-	var prefix = "-";
  if (message.content === "$help") {
 	  message.channel.send('**تم ارسالك في الخاص** :mailbox_with_mail: ');
   const embed = new Discord.RichEmbed() 
@@ -26,7 +25,7 @@ client.on('ready', () => {
 	  admin:
 	  bc:ارسال رسالة لجميع اعضاء لسيرفر
 	  clear:باختياره من 100
-	  $ban:لتبيد شخص
+	  $ban:لتبنيد شخص
 	  $kick:طرد شخص من السيرفر
 	  $mute:اعطاء ميوت للعضو
 	  $unmute:فك الميوت عن العضو
