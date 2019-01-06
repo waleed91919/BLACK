@@ -497,7 +497,7 @@ client.on('message', message=> {
     if (message.author.bot) return;
     if (message.isMentioned(client.user))
     {
-    message.reply(`**My Prefix is `` ${prefix}`` `)
+    message.reply(`**My Prefix is **$`)
     }
 });
 
