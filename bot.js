@@ -239,7 +239,7 @@ let welcomer = member.guild.channels.find("name","welcome");
 	  
 	  
 	  
-	  var prefix = "$ban"
+
 client.on('message', message => {
   if (message.author.x5bz) return;
   if (!message.content.startsWith(prefix)) return;
