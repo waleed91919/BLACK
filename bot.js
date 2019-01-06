@@ -2,9 +2,6 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const moment = require('moment');
 
-const Discord = require('discord.js');
-const client = new Discord.Client();
-const prefix = "البرفركس"
 
 client.on('ready', () => {
 console.log(`سجل الدخول ${client.user.tag}!`);
