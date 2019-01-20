@@ -648,11 +648,11 @@ By: :arrow_down:
 }
 });
 
-
+/*
 client.on("guildMemberAdd", (member) => {
 client.channels.get('536537778394234903').edit({name : `『 الأعضاء ↩ ${member.guild.memberCount} 』`});
-})
-
+});
+*/
 client.on('message', async message => {
   if(message.content.startsWith(prefix + "voicesetup")) {
   if(!message.guild.member(message.author).hasPermissions('MANAGE_CHANNELS')) return message.reply('❌ **ليس لديك الصلاحيات الكافية**');
