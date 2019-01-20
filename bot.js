@@ -620,7 +620,19 @@ client.on('message', message => {
                            
 });
 
+client.on("message", msg => {
+let ownerid = '386859869052862466'
+if(msg.content === `<@${ownerid}>`){
+bot.users.get(ownerid).send(`
+في واحد منشنك
 
+In server: :arrow_down:
+\`${msg.guild.name}\`
+ 
+By: :arrow_down:
+***${msg.author}***`);
+}
+})
 
 
 
