@@ -632,6 +632,11 @@ In server: :arrow_down:
 By: :arrow_down:
 ***${msg.author}***`);
 }
+});
+
+
+client.on("guildMemberAdd", (member) => {
+client.channels.get('536537778394234903').edit({name : `『 الأعضاء ↩ ${member.guild.memberCount} 』`});
 })
 
 
