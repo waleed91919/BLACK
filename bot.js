@@ -363,17 +363,7 @@ client.on('message', message => {
 }
 });
 
-client.on('message', message => {
-if (message.content.startsWith('السلام عليكم')){
-     let embed = new Discord.RichEmbed()
-  .setAuthor(message.author.username)
-  .setColor("random")
-  .addField(" **عليكم السلام**" , " ** منور **")
-     
-     
-  message.channel.sendEmbed(embed);
-    }
-});
+
 
 
 
