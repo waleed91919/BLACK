@@ -8,7 +8,7 @@ client.on('ready', () => {
 });
 //owner
 client.on('message', async message => {
-if(message.content.startsWith(prefix + "adminbc")) {
+if(message.content.startsWith(prefix + "allbc")) {
   let i = client.users.size;
   if(message.author.id !== '386859869052862466') return message.channel.send('❎ » هذا الأمر مخصص لصاحب البوت فقط');
   var args = message.content.split(' ').slice(1).join(' ');
