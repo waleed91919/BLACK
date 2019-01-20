@@ -40,6 +40,8 @@ if(message.content.startsWith(prefix + "adminbc")) {
 	  $invite:اضافة البوت الى سيرفرك
 	  $avatar:يظهر صورة بروفايلك
 	  $skin:يظهرك سكنك في ماين كرافت
+	  $invites:عدد الاشخاص الذين قمت بدعوتهم
+	  $invite-codes:روابط الدعوات
 	  admin:
 	  $bc:ارسال رسالة لجميع اعضاء لسيرفر
 	  $clear:يمسح رسائل بعدد من 100
@@ -47,6 +49,10 @@ if(message.content.startsWith(prefix + "adminbc")) {
 	  $kick:طرد شخص من السيرفر
 	  $mute:اعطاء ميوت للعضو
 	  $unmute:فك الميوت عن العضو
+	  $cv:انشاء روم صوتي
+	  $ct:انشاء روم كتابة
+ 	  $mutechannel:قفل الشات
+	  $unmutechannel:فتح الشات
 	  Musik:
 	  $play:تشغيل اغنية باسم او رابط
 	  $skip:تخطي الاغنية
